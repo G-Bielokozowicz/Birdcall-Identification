@@ -30,5 +30,15 @@ The dataset consists of the following columns:
     Year: Year the recording was made.
     Month: Month the recording was made.
 
-## Heatmap
+## Geospatial analysis
+Heatmap showing call recordings basend on latitude and longitude.
+
 ![obraz](https://github.com/user-attachments/assets/34b80bb1-1973-44fd-a373-ca1f99a72721)
+
+## Temporal analysis
+
+Identyfication of seasonal patterns.
+
+![obraz](https://github.com/user-attachments/assets/c8468494-70a0-4cef-aaa1-63c85c55a1ec)
+
+
