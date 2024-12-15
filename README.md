@@ -41,4 +41,28 @@ Identyfication of seasonal patterns.
 
 ![obraz](https://github.com/user-attachments/assets/c8468494-70a0-4cef-aaa1-63c85c55a1ec)
 
+![obraz](https://github.com/user-attachments/assets/b584d0af-dd43-4dcb-9a8d-20e82b440b56)
+
+## Country analysis
+Analyzing the species distribution, altitude and record length per country
+
+![obraz](https://github.com/user-attachments/assets/edfdacc8-5b13-4280-8649-91e1cdd0830c)
+![obraz](https://github.com/user-attachments/assets/6215c69c-1dae-4c56-a630-cfdfe943a7dd)
+![obraz](https://github.com/user-attachments/assets/569d92b6-c939-4116-a997-4367f2ec7368)
+![obraz](https://github.com/user-attachments/assets/0eddfd28-ce14-4883-9bae-cfc1278d952b)
+
+## Anomaly detection
+
+Detecting anomalies in altitude and length using Isolation Forest
+
+![obraz](https://github.com/user-attachments/assets/5ae32fa7-36ae-4ea2-9bd6-e2db985daab1)
+
+
+## Quality of recording prediction
+
+Predicting the quality of the recording basend on it's length, altitude, time of recording and species using XGBoost Clasifier
+
+![obraz](https://github.com/user-attachments/assets/38822bb9-8178-441a-9ae8-68eac15e12f7)
+
+![obraz](https://github.com/user-attachments/assets/73d19bde-8adf-40d5-8117-614390b8d35f)
 
