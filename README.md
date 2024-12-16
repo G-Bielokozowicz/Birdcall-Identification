@@ -1,9 +1,8 @@
-## Birdcall Identification
+# Birdcall Identification
 
 This project involves performing data analysis on a dataset containing bird call recordings. The dataset includes various attributes related to the bird species, the recording process, and metadata such as location and time. The goal of this analysis is to extract insights into bird behavior, vocalization patterns, and trends across different locations and time periods.
 
-##
-Dataset Overview
+# Dataset Overview
 
 The dataset consists of the following columns:
 
@@ -30,12 +29,12 @@ The dataset consists of the following columns:
     Year: Year the recording was made.
     Month: Month the recording was made.
 
-## Geospatial analysis
+# Geospatial analysis
 Heatmap showing call recordings basend on latitude and longitude.
 
 ![obraz](https://github.com/user-attachments/assets/34b80bb1-1973-44fd-a373-ca1f99a72721)
 
-## Temporal analysis
+# Temporal analysis
 
 Identyfication of seasonal patterns.
 
@@ -43,7 +42,7 @@ Identyfication of seasonal patterns.
 
 ![obraz](https://github.com/user-attachments/assets/b584d0af-dd43-4dcb-9a8d-20e82b440b56)
 
-## Country analysis
+# Country analysis
 Analyzing the species distribution, altitude and record length per country.
 
 ![obraz](https://github.com/user-attachments/assets/edfdacc8-5b13-4280-8649-91e1cdd0830c)
@@ -51,36 +50,42 @@ Analyzing the species distribution, altitude and record length per country.
 ![obraz](https://github.com/user-attachments/assets/569d92b6-c939-4116-a997-4367f2ec7368)
 ![obraz](https://github.com/user-attachments/assets/0eddfd28-ce14-4883-9bae-cfc1278d952b)
 
-## Anomaly detection
+# Anomaly detection
 
 Detecting anomalies in altitude and length using Isolation Forest.
 
 ![obraz](https://github.com/user-attachments/assets/5ae32fa7-36ae-4ea2-9bd6-e2db985daab1)
 
-## Altitude prediction
+# Altitude prediction
 
-Predicting the altitude of the recording location based the longitude, langitude and species using XGBoost regressor.
+Predicting the altitude of the recording location based the longitude, langitude and species using XGBoost regressor and Random Forest.
 
-![obraz](https://github.com/user-attachments/assets/9c7cc3e9-2511-4b9e-aaa1-a239c2334780)
+## XGBoost
+
+![obraz](https://github.com/user-attachments/assets/668f6d1e-dd8a-485b-8c6b-ae5389f55a44)
 ![obraz](https://github.com/user-attachments/assets/fc6811dc-67aa-473c-a84c-37e931c2eab5)
 
-Mean Altitude: 164.72
 
-Standard Deviation of Altitude: 189.7
+## Random Forest
+![obraz](https://github.com/user-attachments/assets/463c6b49-9d45-40a0-854c-9206f664a17f)
+![obraz](https://github.com/user-attachments/assets/f653eb49-6333-4b5e-bb05-4280231f8d50)
 
-Baseline RMSE: 192.58
+## Comparison
+![obraz](https://github.com/user-attachments/assets/3d16c55e-9b4f-4ee5-976d-b7d7e1919451)
+![obraz](https://github.com/user-attachments/assets/aadf942a-e53d-4f11-9883-8cb67eec80ea)
 
-R² Score: 0.71
+## Residual Analysis
+
+![obraz](https://github.com/user-attachments/assets/6ab78b8d-5474-44a6-b847-6f619e646fc3)
 
 
 
-
-## Quality of recording prediction
+# Quality of recording prediction
 
 Predicting the quality of the recording based on it's length, altitude, time of recording and species using XGBoost Clasifier and RandomForest.
 Based on the precision of the prediction and low feature importance, predicting the quality based on selected features isn't really possible.
 
-Prediction using XGBoost:
+## Prediction using XGBoost:
 
 
 ![obraz](https://github.com/user-attachments/assets/6f04b403-0461-4c6e-a670-b2850d52f3c1)
@@ -90,7 +95,7 @@ Prediction using XGBoost:
 
 
 
-Prediction using RandomForest:
+## Prediction using RandomForest:
 
 ![obraz](https://github.com/user-attachments/assets/2d3848e4-33bf-48dd-a293-f0889301c79b)
 
