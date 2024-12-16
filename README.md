@@ -62,7 +62,16 @@ Detecting anomalies in altitude and length using Isolation Forest
 
 Predicting the quality of the recording basend on it's length, altitude, time of recording and species using XGBoost Clasifier
 
-![obraz](https://github.com/user-attachments/assets/38822bb9-8178-441a-9ae8-68eac15e12f7)
+![obraz](https://github.com/user-attachments/assets/6f04b403-0461-4c6e-a670-b2850d52f3c1)
 
-![obraz](https://github.com/user-attachments/assets/73d19bde-8adf-40d5-8117-614390b8d35f)
+
+![obraz](https://github.com/user-attachments/assets/63ba4462-4aa6-4d09-ade2-453fe8e7208b)
+
+
+Prediction using RandomForest
+
+![obraz](https://github.com/user-attachments/assets/2d3848e4-33bf-48dd-a293-f0889301c79b)
+
+![obraz](https://github.com/user-attachments/assets/e6b18c5e-c5a7-4190-ac9e-4a630bf08705)
+
 
