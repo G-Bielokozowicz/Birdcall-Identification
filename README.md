@@ -44,7 +44,7 @@ Identyfication of seasonal patterns.
 ![obraz](https://github.com/user-attachments/assets/b584d0af-dd43-4dcb-9a8d-20e82b440b56)
 
 ## Country analysis
-Analyzing the species distribution, altitude and record length per country
+Analyzing the species distribution, altitude and record length per country.
 
 ![obraz](https://github.com/user-attachments/assets/edfdacc8-5b13-4280-8649-91e1cdd0830c)
 ![obraz](https://github.com/user-attachments/assets/6215c69c-1dae-4c56-a630-cfdfe943a7dd)
@@ -53,14 +53,18 @@ Analyzing the species distribution, altitude and record length per country
 
 ## Anomaly detection
 
-Detecting anomalies in altitude and length using Isolation Forest
+Detecting anomalies in altitude and length using Isolation Forest.
 
 ![obraz](https://github.com/user-attachments/assets/5ae32fa7-36ae-4ea2-9bd6-e2db985daab1)
 
 
 ## Quality of recording prediction
 
-Predicting the quality of the recording basend on it's length, altitude, time of recording and species using XGBoost Clasifier
+Predicting the quality of the recording basend on it's length, altitude, time of recording and species using XGBoost Clasifie and RandomForest.
+Based on the precision of the prediction and low feature importance, predicting the quality based on selected features isn't really possible.
+
+Prediction using XGBoost:
+
 
 ![obraz](https://github.com/user-attachments/assets/6f04b403-0461-4c6e-a670-b2850d52f3c1)
 
@@ -68,7 +72,7 @@ Predicting the quality of the recording basend on it's length, altitude, time of
 ![obraz](https://github.com/user-attachments/assets/63ba4462-4aa6-4d09-ade2-453fe8e7208b)
 
 
-Prediction using RandomForest
+Prediction using RandomForest:
 
 ![obraz](https://github.com/user-attachments/assets/2d3848e4-33bf-48dd-a293-f0889301c79b)
 
