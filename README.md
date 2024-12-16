@@ -57,10 +57,27 @@ Detecting anomalies in altitude and length using Isolation Forest.
 
 ![obraz](https://github.com/user-attachments/assets/5ae32fa7-36ae-4ea2-9bd6-e2db985daab1)
 
+## Altitude prediction
+
+Predicting the altitude of the recording location based the longitude, langitude and species using XGBoost regressor.
+
+![obraz](https://github.com/user-attachments/assets/9c7cc3e9-2511-4b9e-aaa1-a239c2334780)
+![obraz](https://github.com/user-attachments/assets/fc6811dc-67aa-473c-a84c-37e931c2eab5)
+
+Mean Altitude: 164.72
+
+Standard Deviation of Altitude: 189.7
+
+Baseline RMSE: 192.58
+
+R² Score: 0.71
+
+
+
 
 ## Quality of recording prediction
 
-Predicting the quality of the recording basend on it's length, altitude, time of recording and species using XGBoost Clasifie and RandomForest.
+Predicting the quality of the recording based on it's length, altitude, time of recording and species using XGBoost Clasifier and RandomForest.
 Based on the precision of the prediction and low feature importance, predicting the quality based on selected features isn't really possible.
 
 Prediction using XGBoost:
@@ -70,6 +87,7 @@ Prediction using XGBoost:
 
 
 ![obraz](https://github.com/user-attachments/assets/63ba4462-4aa6-4d09-ade2-453fe8e7208b)
+
 
 
 Prediction using RandomForest:
