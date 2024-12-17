@@ -102,3 +102,19 @@ Based on the precision of the prediction and low feature importance, predicting 
 ![obraz](https://github.com/user-attachments/assets/e6b18c5e-c5a7-4190-ac9e-4a630bf08705)
 
 
+# Clustering 
+
+Clustering of bird calls based on length and altitude using K-Means, OPTISCAN and Hierarchical clustering.
+
+## K-Means
+![obraz](https://github.com/user-attachments/assets/2f4d1fe4-b558-4124-8717-d69c78017634)
+
+## OPTISCAN
+
+OPTISCAN has problem creating clusters in this specific dataset, due to it's size.
+![obraz](https://github.com/user-attachments/assets/822c468f-2e60-4568-8274-ffa1afac6496)
+
+## Hierarchical clustering
+![obraz](https://github.com/user-attachments/assets/ecc1c36d-b8ec-4991-b5c9-efd7118c1119)
+
+
