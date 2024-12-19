@@ -79,6 +79,26 @@ Predicting the altitude of the recording location based the longitude, langitude
 ![obraz](https://github.com/user-attachments/assets/6ab78b8d-5474-44a6-b847-6f619e646fc3)
 
 
+# Seasonal trend prediction
+Predicting the seasonal trends for the future years, using SARIMA and Prophet forecasting. Sarima forecast fits the data much better, and makes more accurate predictions. Prophet predictions are too smooth.
+
+## Monthly Bird Call Counts
+
+![obraz](https://github.com/user-attachments/assets/fbd7ffff-c4b2-4952-a515-7aea2a61cea5)
+
+## Decompose
+
+![obraz](https://github.com/user-attachments/assets/a51663ed-b338-4931-9698-a75def35431a)
+
+## Sarima Forecast
+
+![obraz](https://github.com/user-attachments/assets/c4bab824-1006-4c80-b2f4-ba7b67cf7099)
+
+## Prophet Forecast
+
+![obraz](https://github.com/user-attachments/assets/6df90d59-5f9e-4b6a-8ca0-e9990eb2f2e3)
+
+
 
 # Quality of recording prediction
 
