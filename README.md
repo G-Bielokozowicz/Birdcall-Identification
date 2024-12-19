@@ -50,6 +50,17 @@ Analyzing the species distribution, altitude and record length per country.
 ![obraz](https://github.com/user-attachments/assets/569d92b6-c939-4116-a997-4367f2ec7368)
 ![obraz](https://github.com/user-attachments/assets/0eddfd28-ce14-4883-9bae-cfc1278d952b)
 
+# Impact of using playback
+Analyzing wheter the usage of playback has a significant impact on seeing/hearing the bird.
+![obraz](https://github.com/user-attachments/assets/2fd9f855-e7bb-4c3f-96f4-8e9534f1ae2e)
+
+# Species analysis
+Showing number of recorded calls per species and mean length of the recording for each one.
+
+![obraz](https://github.com/user-attachments/assets/a6891c50-81c9-4fe6-8dac-078be8b3c0dc)
+![obraz](https://github.com/user-attachments/assets/a3bd5108-b333-4471-b8cf-aa4fe9383abe)
+
+
 # Anomaly detection
 
 Detecting anomalies in altitude and length using Isolation Forest.
