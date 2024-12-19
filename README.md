@@ -50,6 +50,17 @@ Analyzing the species distribution, altitude and record length per country.
 ![obraz](https://github.com/user-attachments/assets/569d92b6-c939-4116-a997-4367f2ec7368)
 ![obraz](https://github.com/user-attachments/assets/0eddfd28-ce14-4883-9bae-cfc1278d952b)
 
+# Impact of using playback
+Analyzing wheter the usage of playback has a significant impact on seeing/hearing the bird.
+![obraz](https://github.com/user-attachments/assets/2fd9f855-e7bb-4c3f-96f4-8e9534f1ae2e)
+
+# Species analysis
+Showing number of recorded calls per species and mean length of the recording for each one.
+
+![obraz](https://github.com/user-attachments/assets/a6891c50-81c9-4fe6-8dac-078be8b3c0dc)
+![obraz](https://github.com/user-attachments/assets/a3bd5108-b333-4471-b8cf-aa4fe9383abe)
+
+
 # Anomaly detection
 
 Detecting anomalies in altitude and length using Isolation Forest.
@@ -77,6 +88,26 @@ Predicting the altitude of the recording location based the longitude, langitude
 ## Residual Analysis
 
 ![obraz](https://github.com/user-attachments/assets/6ab78b8d-5474-44a6-b847-6f619e646fc3)
+
+
+# Seasonal trend prediction
+Predicting the seasonal trends for the future years, using SARIMA and Prophet forecasting. Sarima forecast fits the data much better, and makes more accurate predictions. Prophet predictions are too smooth.
+
+## Monthly Bird Call Counts
+
+![obraz](https://github.com/user-attachments/assets/fbd7ffff-c4b2-4952-a515-7aea2a61cea5)
+
+## Decompose
+
+![obraz](https://github.com/user-attachments/assets/a51663ed-b338-4931-9698-a75def35431a)
+
+## Sarima Forecast
+
+![obraz](https://github.com/user-attachments/assets/c4bab824-1006-4c80-b2f4-ba7b67cf7099)
+
+## Prophet Forecast
+
+![obraz](https://github.com/user-attachments/assets/6df90d59-5f9e-4b6a-8ca0-e9990eb2f2e3)
 
 
 
